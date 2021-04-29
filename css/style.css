@@ -1,0 +1,72 @@
+@charset "utf-8";
+@import "reset.css";
+@import "game.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+ 
+html, body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#container{
+    width: 100vw; height: 100vh;
+    background-color: skyblue;
+    display: flex; justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+   
+  .game{
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 30px;
+    width: 30%;
+  }
+   
+  .game__timertitle{
+    font-size: 12px;
+    color: #aeaeae;
+  }
+   
+  .game__timer{
+    font-size: 28px;
+    font-weight: 700;
+  }
+   
+  .game__word{
+    font-size: 36px;
+    font-weight: 900;
+    margin: 25px 0;
+  }
+   
+  .game__input{
+    font-size: 18px;
+    font-family: nanum;
+    width: 50%;
+  }
+   
+  .game__score{
+    margin: 10px 0;
+  }
+
+  .retry_btn{
+    margin-top:100px;
+    display: flex;
+    flex-direction: column;
+    width:150px;
+    align-items: center;
+  }
+  .retry_btn .start{
+    width:100%;
+    padding:10px 30px;
+    border:none;
+    background:#eaeaea;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    cursor: pointer;
+    margin-bottom:30px;
+}
